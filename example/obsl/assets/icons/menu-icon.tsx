@@ -1,11 +1,10 @@
 import * as React from 'react';
 import Svg, { Path } from 'react-native-svg';
 import { IconProps } from './icon.props';
-export const MenuIcon = ({
-  width,
-  height,
-  color,
-}: IconProps) => (
+export const MenuIcon = (
+  { width, height, color }: IconProps,
+  ...args: any
+) => (
   <Svg
     width={width}
     height={height}
